@@ -1,6 +1,6 @@
 {
   "name": "sortobj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "I can sort Object in JavaScript",
   "main": "index.js",
   "directories": {
