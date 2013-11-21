@@ -1,0 +1,29 @@
+{
+  "name": "sortobj",
+  "version": "0.0.1",
+  "description": "I can sort Object in JavaScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "git@github.com:alsotang/sortobj.git",
+  "keywords": [
+    "order",
+    "object",
+    "sort"
+  ],
+  "author": "Alsotang <alsotang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "blanket": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": { "blanket": { "pattern": ["index.js"]} }
+}

@@ -1,0 +1,6 @@
+test
+.travis.yml
+.git*
+coverage.html
+.jshintrc
+
