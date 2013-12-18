@@ -1,6 +1,6 @@
 {
   "name": "sortobj",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "I can sort Object in JavaScript",
   "main": "index.js",
   "directories": {
@@ -25,5 +25,5 @@
   "engines": {
     "node": "*"
   },
-  "scripts": { "blanket": { "pattern": ["index.js"]} }
+  "scripts": { "blanket": { "pattern": "//^((?!(node_modules|test|common)).)*$/"} }
 }

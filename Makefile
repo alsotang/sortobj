@@ -1,6 +1,6 @@
 test:
 	mocha
-coverage:
+test-cov:
 	mocha -r blanket -R html-cov > coverage.html
 
-.PHONY: test coverage
+.PHONY: test test-cov
