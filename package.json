@@ -1,13 +1,15 @@
 {
   "name": "sortobj",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "I can sort Object in JavaScript",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test|common)).)*$/"
+    }
   },
   "repository": "git@github.com:alsotang/sortobj.git",
   "keywords": [
@@ -24,6 +26,5 @@
   },
   "engines": {
     "node": "*"
-  },
-  "scripts": { "blanket": { "pattern": "//^((?!(node_modules|test|common)).)*$/"} }
+  }
 }
